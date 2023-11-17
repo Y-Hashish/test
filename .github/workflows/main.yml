@@ -13,11 +13,7 @@ jobs:
         steps:
           - uses: actions/checkout@v3
 
-         
-
-          - name: "see the path "
-            run: pwd 
-          - name: "hashish "
-            run: echo hashish 
+          - name: "login to docker hub"
+            run: docker login --username hashish1934 --password dckr_pat_CIC8jMhKp8QyUXEmVCj2E0vAVJ4
 
           
