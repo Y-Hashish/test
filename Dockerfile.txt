@@ -1,0 +1,6 @@
+FROM openjdk 
+WORKDIR /application
+
+COPY hashish.java .
+RUN javac hashish.java 
+CMD java hashish
